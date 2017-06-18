@@ -7,6 +7,9 @@
     "start": "node index.js",
     "heroku-postbuild": "cd client && npm --production=false && npm run build"
   },
+  "engines": {
+    "node": "7.8.0"
+  },
   "keywords": [],
   "author": "Nicolas Fetter <hi@nicofetter.com> (http://nicofetter.com/)",
   "license": "MIT",
