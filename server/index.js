@@ -12,7 +12,7 @@ import authCheckMiddleware from './middleware/auth-check';
 const app = express()
 
 // Serve static files from the React app
-app.use(express.static(path.join(__dirname, 'client/build')))
+// app.use(express.static(path.join(__dirname, 'client/build')))
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
