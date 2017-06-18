@@ -1,0 +1,15 @@
+{
+  "name": "create-react-app-with-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Nicolas Fetter <hi@nicofetter.com> (http://nicofetter.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.15.3"
+  }
+}
