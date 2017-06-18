@@ -27,7 +27,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <div className="App-intro">
-          {users.map(user => <div>{user.id}</div>)}
+          <a href="/api/twitter/login"> Twitter Login</a>
         </div>
       </div>
     );

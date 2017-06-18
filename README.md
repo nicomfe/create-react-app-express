@@ -1,5 +1,5 @@
 START SERVER:
-npm start
+npm run dev
 
 START CLIENT:
 cd client
