@@ -6,9 +6,9 @@
   "scripts": {
     "dev": "nodemon server/index.js --exec babel-node --presets es2015,stage-2",
     "build": "./node_modules/.bin/babel server -d dist --presets es2015,stage-2",
-    "start": "node server/dist/index.js",
+    "start": "node dist/index.js",
     "heroku-prebuild": "npm --production=false install",
-    "heroku-postbuild": "cd client && npm --production=false install && npm run build"
+    "heroku-postbuild": "npm run build && cd client && npm --production=false install && npm run build"
   },
   "engines": {
     "node": "7.8.0"
