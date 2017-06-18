@@ -5,11 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "heroku-postbuild": "cd client && npm --production=false && npm run build"
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build"
   },
   "engines": {
-    "node": "7.8.0",
-    "npm": "4.2.0"
+    "node": "7.8.0"
   },
   "keywords": [],
   "author": "Nicolas Fetter <hi@nicofetter.com> (http://nicofetter.com/)",
